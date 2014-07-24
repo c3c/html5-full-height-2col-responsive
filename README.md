@@ -1,4 +1,13 @@
-html5-full-height-2col-responsive
+HTML5 full height, two-column, responsive layout
 =================================
 
-A boilerplate for a 100% height, responsive, two-column layout with header and footer
+A 100% height, responsive, two-column layout with header and footer.
+
+![Layout](http://i.imgur.com/jhtY6Dz.png)
+
+Uses "display: table" (eek!), and bootstrap's grid for easy column wrapping.
+
+Results vary depending on the browser. Firefox seems to have the best rendering at the moment.
+Needs some tweaking for IE (maybe in another life time).
+
+My 2 cents: CSS should have element anchoring and docking like the one that is available in Visual Studio.
