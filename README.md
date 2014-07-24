@@ -10,6 +10,6 @@ Uses `display: table` (eek!), and bootstrap's grid for easy column wrapping (alt
 Results vary A LOT depending on the browser. Firefox seems to have the best rendering at the moment.
 It displays well in Chrome, Firefox, and IE8+ thanks to the html5shiv and Respond.js.
 
-I've tried some other approach using `display: table-caption` will only work for either the header or the footer, but not both at the same time.
+I've tried some other approach using `display: table-caption`, which will only work for either the header or the footer, but not both at the same time.
 
 My 2 cents: CSS should have element anchoring and docking like the one that is available in Visual Studio. But let's see where flexbox gets us in the future :)
